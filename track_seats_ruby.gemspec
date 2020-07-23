@@ -4,18 +4,17 @@ Gem::Specification.new do |spec|
   spec.name          = "track_seats_ruby"
   spec.version       = TrackSeatsRuby::VERSION
   spec.authors       = "satyam pawar"
-  spec.email         = ["satyampawar007@gmail.com"]
-
+  spec.email         = "satyampawar007@gmail.com"
   spec.summary       = "dfas"
-  spec.description   = "fasd"
-  spec.homepage      = "https://rubygems.org/gems/track_seats_ruby"
+  spec.description   = "Find a best seats"
+  spec.homepage      = "https://github.com/satyam-sp/track_seats_ruby"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/satyam-sp/track_seats_ruby"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://rubygems.org/gems/track_seats_ruby"
-  spec.metadata["changelog_uri"] = "https://rubygems.org/gems/track_seats_ruby"
+  spec.metadata["source_code_uri"] = "https://github.com/satyam-sp/track_seats_ruby"
+  spec.metadata["changelog_uri"] = "https://github.com/satyam-sp/track_seats_ruby"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -25,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-    spec.license       = 'MIT'
+  spec.license       = 'MIT'
 end
